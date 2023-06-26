@@ -1,0 +1,78 @@
+"""Bunch of constants, you really shouldn't change them unless you are me."""
+
+#
+# - screen
+#
+
+SCREEN_INIT_WIDTH = 850
+SCREEN_INIT_HEIGHT = 480
+SCREEN_MIN_WIDTH = SCREEN_INIT_WIDTH
+SCREEN_MIN_HEIGHT = SCREEN_INIT_HEIGHT
+GAME_NAME = "TEST"
+
+#
+# - colours
+#
+
+CYAN = (0, 255, 255, 255)
+PINK = (255, 0, 255, 255)
+GREEN = (0, 255, 0, 255)
+BLACK = (0, 0, 0, 255)
+# GAME_BAR_COLOUR = (0, 0, 0, 255)
+FONT_BACKGROUND = (192, 170, 51, 255)
+FONT_COLOUR = (202, 35, 36, 255)
+
+#
+# - general
+#
+
+FPS = 60
+SCALE = 4
+"""Used locally."""
+TEXT_SKIP_W_H = 16 * 2
+
+#
+# - tile contents
+#
+
+# TILE_CONTENTS_WIDTH = 12 * SCALE
+# TILE_CONTENTS_HEIGHT = 7 * SCALE
+TRAVERSABLE_TILE_CONTENT_TYPES = [-1, 4, 5, 6, 7, 8] # (0, 1, 2)
+FLUFF_TRAVERSABLE_TILE_CONTENT_TYPES = TRAVERSABLE_TILE_CONTENT_TYPES
+#
+# - tiles
+#
+
+TILES_WIDTH = 24 * SCALE
+TILES_HEIGHT_LARGE = 27 * SCALE
+TILES_HEIGHT_SMALL = 13 * SCALE
+
+# TILE_CONTENTS_POS = (
+#     TILES_WIDTH / 2 - TILE_CONTENTS_WIDTH / 2,
+#     TILES_HEIGHT_SMALL / 2 - TILE_CONTENTS_HEIGHT/ 2
+# )
+# """top left, top right, bottom left, bottom right"""
+
+#
+# - in game 
+#
+
+PLAYER_WIDTH = 9 * SCALE
+PLAYER_HEIGHT = 12 * SCALE
+
+GAME_BAR_WIDTH_HEIGHT = 12 * SCALE
+
+BRAINS_COLLECTET_WIDTH = int((14 * (SCALE)) / 2)
+BRAINS_COLLECTET_HEIGHT = int((12 * (SCALE)) / 2)
+
+MAX_LIFE = 9
+
+CHEST_AVAILABLE_ITEMS = [0, 1, 2, 4, 5, 6, 7]
+
+#
+# - font
+#
+
+FONT_SCALE = 2
+SPACE_LETTERS = 2
+SPACE_LINES = 2
